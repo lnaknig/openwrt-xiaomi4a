@@ -1,7 +1,7 @@
 # Actions-OpenWrt-Xiaomi-R4A
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/unkaer/Actions-OpenWrt-Xiaomi-R4A.svg?style=flat-square&label=Stars&logo=github)
+![GitHub Stars](https://img.shields.io/github/stars/unkaer/Actions-OpenWrt-Xiaomi-R4A.svg?style=flat-square&label=Stars&logo=github) 
 ![GitHub Forks](https://img.shields.io/github/forks/unkaer/Actions-OpenWrt-Xiaomi-R4A.svg?style=flat-square&label=Forks&logo=github)
 
 使用 GitHub Actions 编译 OpenWrt 固件
@@ -40,7 +40,7 @@
 点击页面中的 Use this template （使用这个模版）按钮。
 
 填写仓库名称，然后点击Create repository from template（从模版创建储存库）按钮。
-[参见教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html#toc_5)
+[参见教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html#toc_5) 
 
 ## 2.Actions
 
@@ -95,7 +95,7 @@ cd openwrt/ && make menuconfig
 下次升级就可以直接用，不必再 ssh 选择插件了
 
 ```
-rm -f .config.old && make defconfig && ./scripts/diffconfig.sh > seed.config && cat seed.config
+rm -f .config.old && make defconfig && ./scripts/diffconfig.sh > seed.config && cat seed.config  
 ```
 
 *自己复制保存到合适的位置
@@ -113,11 +113,11 @@ rm -f .config.old && make defconfig && ./scripts/diffconfig.sh > seed.config && 
 ## 3.7 刷入体验
 第一次要断电，按住`reset`键，再插入电源，等待5秒，浏览器访问 192.168.1.1 ，就进入 breed界面，进行升级
 之后的更新升级，都可以在 `系统`->`备份/升级`里面刷入新的固件
-附·一些图片
+附·一些图片 ashfi opfaofoiaao;pojfepow;sv
 
-![](https://gitee.com/Unkaer/blog/raw/master/images/material/20210314184159.webp)
+![](https://gitee.com/Unkaer/blog/raw/master/images/material/20210314184159.webp) 
 
-![](https://gitee.com/Unkaer/blog/raw/master/images/material/20210314184218.webp)
+![](https://gitee.com/Unkaer/blog/raw/master/images/material/20210314184218.webp) 
 
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © P3TERX
